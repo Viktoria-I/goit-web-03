@@ -27,3 +27,4 @@ if __name__ == '__main__':
         a, b, c, d = executor.map(factorize, (128, 255, 99999, 10651060))
     print("Time with multiprocessing: ", time.time() - start)
     print(f"128: {a}\n255: {b}\n99999: {c}\n10651060: {d}")
+    

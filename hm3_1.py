@@ -42,3 +42,4 @@ if __name__ == "__main__":
     thread = threading.Thread(target=sort_files, args=(source_folder, target_folder))
     thread.start()
     thread.join()
+    
